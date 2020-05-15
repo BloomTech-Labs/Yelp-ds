@@ -1,76 +1,78 @@
-🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline. Feel free to add your own flare to it.
+<!-- 🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline. Feel free to add your own flare to it.
 
 🚫 The numbers 1️⃣ through 5️⃣ next to each item represent the week that part of the docs needs to be comepleted by.  Make sure to delete the numbers by the end of Labs.
 
-🚫 Each student has a required minimum number of meaningful PRs each week per the rubric.  Contributing to docs does NOT count as a PR to meet your weekly requirements.
+🚫 Each student has a required minimum number of meaningful PRs each week per the rubric.  Contributing to docs does NOT count as a PR to meet your weekly requirements. -->
 
-# 1️⃣ Title of project goes here
+# 1️⃣ YelpSense
 
-You can find the project at [🚫URL NAME GOES HERE](🚫copy and paste URL here).
+You can find the project at [https://yelpsense.com](https://yelpsense.com).
 
 ## 5️⃣ Contributors
 
-🚫Add contributor info below, make sure add images and edit the social links for each member. Add to or delete these place-holders as needed
 
-|                                       [Student 1](https://github.com/)                                        |                                       [Student 2](https://github.com/)                                        |                                       [Student 3](https://github.com/)                                        |                                       [Student 4](https://github.com/)                                        |                                       [Student 5](https://github.com/)                                        |
+|                                       [Spencer Adams](https://github.com/spentaur)                                        |                                       [Connor Sanderford](https://github.com/crsanderford)                                        |                                       [Bethany Richardson](http://github.com/ravenha)                                        |                                                                              
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-|                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-female.png" width = "200" />](https://github.com/)                       |                      [<img src="https://www.dalesjewelers.com/wp-content/uploads/2018/10/placeholder-silhouette-male.png" width = "200" />](https://github.com/)                       |
-|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/honda0306)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Mister-Corn)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NandoTheessen)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/wvandolah)             |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/) |
+|                      [<img src="https://avatars2.githubusercontent.com/u/2055801?s=460&u=2e8d9831dc72da5d99a127d070f7985a40fcacfb&v=4" width = "200" />](https://github.com/spentaur)                       |                      [<img src="https://yelpsense.com/images/connor.jpg" width = "200" />](https://github.com/crsanderford)                       |                      [<img src="https://avatars2.githubusercontent.com/u/51799343?s=460&u=cc7cd70771da267f60437f6551c05cb415f5d1fe&v=4" width = "200" />](https://github.com/ravenha)                     |
+|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/spentaur)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/crsanderford)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/ravenha) 
+| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://linkedin.com/in/spentaur) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/connor-sanderford/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/ravenha)
 
 
 
-🚫 5️⃣ Optional examples of using images with links for your tech stack, make sure to change these to fit your project
+<!-- 🚫 5️⃣ Optional examples of using images with links for your tech stack, make sure to change these to fit your project
 
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 ![Typescript](https://img.shields.io/npm/types/typescript.svg?style=flat)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b5c4db1c-b10d-42c3-b157-3746edd9e81d/deploy-status)](netlify link goes in these parenthesis)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-🚫 more info on using badges [here](https://github.com/badges/shields)
+🚫 more info on using badges [here](https://github.com/badges/shields) -->
 
 ## Project Overview
 
 
-1️⃣ [Trello Board](🚫add link to trello board here)
+1️⃣ [Trello Board](https://trello.com/b/Uwd55Hds/labs-pt9-pt-yelp)
 
-1️⃣ [Product Canvas](🚫add link to product canvas here)
+1️⃣ [Product Canvas](https://www.notion.so/Part-Time-Yelp-Dataset-Challenge-4bddd7e5a8114139955d1223647dfc79)
 
-🚫 Replace lorem ipsum with a description of your project
+<!-- 🚫 Replace lorem ipsum with a description of your project -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+YelpSense is a suite of machine learning demos based on the Yelp Open Dataset Challenge. 
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!-- 🚫  delete if front end is not applicable to your project
 
-🚫  delete if front end is not applicable to your project
-
-1️⃣ [Deployed Front End](🚫add link to deployed app here)
+1️⃣ [Deployed Front End](🚫add link to deployed app here) -->
 
 ### Tech Stack
 
-🚫 List all of the languages, frameworks, services, etc used here.
+<!-- 🚫 List all of the languages, frameworks, services, etc used here. -->
+
+This project done using python and it's most popular packages for data science and machine learning including:
+- [Tensorflow](https://www.tensorflow.org)
+- [PyTorch](https://pytorch.org)
+- [scikit-learn](https://scikit-learn.org/stable/)
+- [huggingface](https://huggingface.co)
+- [ktrain](https://github.com/amaiya/ktrain)
+- [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers)
+- [eli5](https://eli5.readthedocs.io/en/latest/)
+- [lime](https://lime-ml.readthedocs.io/en/latest/)
+- [Docker](https://www.docker.com)
 
 ### 2️⃣ Predictions
 
-🚫 Describe your models here
+#### Sentiment Analysis
+We trained a sentiment analysis model using the transformers package and the DistilBERT pretrained model for transfer learning. We chose to make this a regression model instead of a classification model, hoping that this would allow more of the subtleties of sentiment to show in our predictions.
 
 ### 2️⃣ Explanatory Variables
 
--   Explanatory Variable 1
--   Explanatory Variable 2
--   Explanatory Variable 3
--   Explanatory Variable 4
--   Explanatory Variable 5
+-   Review Text
+-   Star Rating
 
 ### Data Sources
-🚫  Add to or delete souce links as needed for your project
+<!-- 🚫  Add to or delete souce links as needed for your project -->
 
 
--   [Source 1] (🚫add link to python notebook here)
--   [Source 2] (🚫add link to python notebook here)
--   [Source 3] (🚫add link to python notebook here)
--   [Source 4] (🚫add link to python notebook here)
--   [Source 5] (🚫add link to python notebook here)
+-   [Yelp Open Dataset](https://www.yelp.com/dataset)
 
 ### Python Notebooks
 
@@ -84,11 +86,19 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 ### 3️⃣ How to connect to the web API
 
-🚫 List directions on how to connect to the API here
+<!-- 🚫 List directions on how to connect to the API here -->
+
+Make a GET request to http://labs-yelp-api-docker.us-east-1.elasticbeanstalk.com/infer_sentiment/ with the query parameter `review`, which should be a string representing the review to get the sentiment of.
+
+Example:
+
+http://labs-yelp-api-docker.us-east-1.elasticbeanstalk.com/infer_sentiment/?review=food+was+good
 
 ### 3️⃣ How to connect to the data API
 
-🚫 List directions on how to connect to the API here
+<!-- 🚫 List directions on how to connect to the API here -->
+
+Per the Terms of Service of the dataset, we can not make the raw data avaiable.
 
 ## Contributing
 
