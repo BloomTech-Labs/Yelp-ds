@@ -17,6 +17,8 @@ s3fs = "*"
 scikit-learn = "*"
 nltk = "*"
 boto3 = "*"
+ktrain = "*"
+sagemaker = "*"
 
 [requires]
 python_version = "3.7"
