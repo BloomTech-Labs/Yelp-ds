@@ -4,9 +4,12 @@ import pickle
 
 import ktrain
 from ktrain import text
+import tensorflow as tf
+tf.debugging.set_log_device_placement(True)
+mirrored_strategy = tf.distribute.MirroredStrategy()
 
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID";
-os.environ["CUDA_VISIBLE_DEVICES"]="0";
+os.environ["CUDA_VISIBLE_DEVICES"]="0,1,2,3";
 
 def _load_training_data(base_dir):
     trn = pickle.load(open(os.path.join(base_dir, 'trn.p'), "rb" ))
@@ -50,11 +53,12 @@ if __name__ =='__main__':
 
     args, unknown = _parse_args()
     
-    trn = _load_training_data()
-    val = _load_testing_data()
-    preproc = _load_preproc()
+    trn = _load_training_data(args.train)
+    val = _load_testing_data(args.test)
+    preproc = _load_preproc(args.preproc)
     
-    model = text.text_classifier(args.model_name, train_data=trn, preproc=preproc)
+    with mirrored_strategy.scope():
+        model = text.text_classifier(args.model_name, train_data=trn, preproc=preproc)
     
     learner = ktrain.get_learner(model,
                                  train_data=trn, 
