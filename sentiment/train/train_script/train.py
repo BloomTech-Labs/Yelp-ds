@@ -58,7 +58,7 @@ if __name__ =='__main__':
     preproc = _load_preproc(args.preproc)
     
     with mirrored_strategy.scope():
-        model = text.text_classifier(args.model_name, train_data=trn, preproc=preproc)
+        model = text.text_regression_model(args.model_name, train_data=trn, preproc=preproc)
     
     learner = ktrain.get_learner(model,
                                  train_data=trn, 
