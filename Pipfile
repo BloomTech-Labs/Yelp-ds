@@ -19,6 +19,8 @@ nltk = "*"
 boto3 = "*"
 ktrain = "*"
 sagemaker = "*"
+torch = "*"
+torchvision = "*"
 
 [requires]
 python_version = "3.7"
