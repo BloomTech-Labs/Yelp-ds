@@ -17,6 +17,11 @@ s3fs = "*"
 scikit-learn = "*"
 nltk = "*"
 boto3 = "*"
+ktrain = "*"
+sagemaker = "*"
+torch = "*"
+torchvision = "*"
+fasttext = "*"
 
 [requires]
 python_version = "3.7"
