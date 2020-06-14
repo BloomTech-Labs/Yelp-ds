@@ -21,6 +21,7 @@ ktrain = "*"
 sagemaker = "*"
 torch = "*"
 torchvision = "*"
+fasttext = "*"
 
 [requires]
 python_version = "3.7"
