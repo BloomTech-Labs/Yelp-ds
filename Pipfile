@@ -17,6 +17,12 @@ s3fs = "*"
 scikit-learn = "*"
 nltk = "*"
 boto3 = "*"
+ktrain = "*"
+sagemaker = "*"
+torch = "*"
+torchvision = "*"
+fasttext = "*"
+ktrain-eli5 = {git = "https://github.com/amaiya/eli5", ref = "tfkeras_0_10_1"}
 
 [requires]
 python_version = "3.7"
