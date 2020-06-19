@@ -25,7 +25,7 @@ def _parse_args():
 
     # hyperparameters sent by the client are passed as command-line arguments to the script.
     parser.add_argument('--epochs', type=int, default=3)
-    parser.add_argument('--batch_size', type=int, default=16)
+    parser.add_argument('--batch_size', type=int, default=128)
     parser.add_argument('--learning_rate', type=float, default=2e-5)
     parser.add_argument('--model_name', type=str, default='distilbert')
 
