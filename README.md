@@ -112,7 +112,8 @@ Example:
 -H 'Referer: https://yelpsense.com/' \
 -H 'Accept-Encoding: gzip, deflate, br' \
 -H 'Connection: keep-alive' \
---data-binary $'{"text":"great!"}'```
+--data-binary $'{"text":"great!"}'
+```
 
 ### 3️⃣ How to connect to the data API
 
