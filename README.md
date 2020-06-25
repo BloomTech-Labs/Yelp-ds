@@ -56,6 +56,7 @@ This project done using python and it's most popular packages for data science a
 - [eli5](https://eli5.readthedocs.io/en/latest/)
 - [lime](https://lime-ml.readthedocs.io/en/latest/)
 - [Docker](https://www.docker.com)
+- [lightFM](https://making.lyst.com/lightfm/docs/index.html)
 
 ### 2️⃣ Predictions
 
@@ -66,6 +67,14 @@ We trained a sentiment analysis model using the transformers package and the Dis
 
 -   Review Text
 -   Star Rating
+
+#### Recommendations
+We trained a factorization machine model using the lightFM package, using only users' ratings of businesses and no content factors. We chose to interpret user scores as a binary classification problem, to better reflect the outcome of the recommender and to enable the use of metrics like ROC-AUC.
+
+### 2️⃣ Explanatory Variables
+-   User Identity
+-   Business Identity
+
 
 ### Data Sources
 <!-- 🚫  Add to or delete souce links as needed for your project -->
@@ -79,7 +88,7 @@ We trained a sentiment analysis model using the transformers package and the Dis
 
 [Python Notebook 1](🚫add link to python notebook here)
 
-[Python Notebook 2](🚫add link to python notebook here)
+[Recommender](https://github.com/Lambda-School-Labs/Yelp-ds/blob/recommender/recommender/lightfm_hyperparams.ipynb)
 
 [Python Notebook 3](🚫add link to python notebook here)
 

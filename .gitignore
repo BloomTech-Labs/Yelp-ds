@@ -138,3 +138,12 @@ dmypy.json
 cython_debug/
 
 .DS_Store
+
+# recommender data
+recommender/data
+
+# recommender virtual environment
+recommender/virt
+
+# vscode stuff
+recommender/.vscode
