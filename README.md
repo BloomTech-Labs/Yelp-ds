@@ -96,11 +96,23 @@ We trained a factorization machine model using the lightFM package, using only u
 
 <!-- 🚫 List directions on how to connect to the API here -->
 
-Make a GET request to http://labs-yelp-api-docker.us-east-1.elasticbeanstalk.com/infer_sentiment/ with the query parameter `review`, which should be a string representing the review to get the sentiment of.
+Make a json POST request to either https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment or https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/summarization with the a `text` field.
 
 Example:
 
-http://labs-yelp-api-docker.us-east-1.elasticbeanstalk.com/infer_sentiment/?review=food+was+good
+```curl 'https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment' \
+-XPOST \
+-H 'Accept: application/json, text/plain, */*' \
+-H 'Content-Type: application/json;charset=utf-8' \
+-H 'Origin: https://yelpsense.com' \
+-H 'Content-Length: 1445' \
+-H 'Accept-Language: en-us' \
+-H 'Host: 8rq6v9dni0.execute-api.us-east-1.amazonaws.com' \
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15' \
+-H 'Referer: https://yelpsense.com/' \
+-H 'Accept-Encoding: gzip, deflate, br' \
+-H 'Connection: keep-alive' \
+--data-binary $'{"text":"great!"}'```
 
 ### 3️⃣ How to connect to the data API
 
