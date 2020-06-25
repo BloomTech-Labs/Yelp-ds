@@ -96,7 +96,7 @@ We trained a factorization machine model using the lightFM package, using only u
 
 <!-- 🚫 List directions on how to connect to the API here -->
 
-Make a json POST request to either https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment or https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/summarization with the a `text` field, and a `model_name` field (`distilbert-regression` or `default` for sentiment / `bert` or `t5` for summarization
+Make a json POST request to either https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment or https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/summarization with the a `text` field, and a `model_name` field (`distilbert-regression` or `default` for sentiment / `bert` or `t5` for summarization)
 
 Example:
 
