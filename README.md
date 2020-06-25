@@ -100,7 +100,8 @@ Make a json POST request to either https://8rq6v9dni0.execute-api.us-east-1.amaz
 
 Example:
 
-```curl 'https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment' \
+```
+curl 'https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment' \
 -XPOST \
 -H 'Accept: application/json, text/plain, */*' \
 -H 'Content-Type: application/json;charset=utf-8' \
