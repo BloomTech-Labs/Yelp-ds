@@ -96,24 +96,24 @@ We trained a factorization machine model using the lightFM package, using only u
 
 <!-- 🚫 List directions on how to connect to the API here -->
 
-Make a json POST request to either https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment or https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/summarization with the a `text` field.
+Make a json POST request to either https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment or https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/summarization with the a `text` field, and a `model_name` field (`distilbert-regression` or `default` for sentiment / `bert` or `t5` for summarization
 
 Example:
 
 ```
-curl 'https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment' \
--XPOST \
--H 'Accept: application/json, text/plain, */*' \
--H 'Content-Type: application/json;charset=utf-8' \
--H 'Origin: https://yelpsense.com' \
--H 'Content-Length: 1445' \
--H 'Accept-Language: en-us' \
--H 'Host: 8rq6v9dni0.execute-api.us-east-1.amazonaws.com' \
--H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15' \
--H 'Referer: https://yelpsense.com/' \
--H 'Accept-Encoding: gzip, deflate, br' \
--H 'Connection: keep-alive' \
---data-binary $'{"text":"great!"}'
+curl --request POST \
+  --url https://8rq6v9dni0.execute-api.us-east-1.amazonaws.com/dev/sentiment \
+  --header 'accept: application/json, text/plain, */*' \
+  --header 'accept-encoding: gzip, deflate, br' \
+  --header 'accept-language: en-us' \
+  --header 'connection: keep-alive' \
+  --header 'content-type: application/json;charset=utf-8' \
+  --header 'host: 8rq6v9dni0.execute-api.us-east-1.amazonaws.com' \
+  --header 'origin: https://yelpsense.com' \
+  --header 'referer: https://yelpsense.com/' \
+  --header 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15' \
+  --data '{"text":"great!",
+"model_name": "default"}'
 ```
 
 ### 3️⃣ How to connect to the data API
