@@ -1,14 +1,10 @@
-<!-- 🚫 Note: All lines that start with 🚫 are instructions and should be deleted before this is posted to your portfolio. This is intended to be a guideline. Feel free to add your own flare to it.
+# YelpSense
 
-🚫 The numbers 1️⃣ through 5️⃣ next to each item represent the week that part of the docs needs to be comepleted by.  Make sure to delete the numbers by the end of Labs.
-
-🚫 Each student has a required minimum number of meaningful PRs each week per the rubric.  Contributing to docs does NOT count as a PR to meet your weekly requirements. -->
-
-# 1️⃣ YelpSense
+![codeclimate maintainability](https://api.codeclimate.com/v1/badges/605aa46b3acf4e517a81/maintainability)
 
 You can find the project at [https://yelpsense.com](https://yelpsense.com).
 
-## 5️⃣ Contributors
+## Contributors
 
 |                                       [Spencer Adams](https://github.com/spentaur)                                       |                                       [Connor Sanderford](https://github.com/crsanderford)                                        |                                       [Bethany Richardson](http://github.com/ravenha)                                          |
 | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
