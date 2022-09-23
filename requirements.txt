@@ -68,7 +68,7 @@ pillow==7.1.2; python_version >= '3.5'
 promise==2.3
 prompt-toolkit==3.0.5; python_full_version >= '3.6.1'
 protobuf3-to-dict==0.1.5
-protobuf==3.12.2
+protobuf==3.18.3
 ptyprocess==0.6.0
 pyasn1-modules==0.2.8
 pyasn1==0.4.8
